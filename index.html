@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"> -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="description" content="Milexpro's very own To-do App allows you save all your day to day activities so that you can always win!"/>
+  <link rel="icon" type="image/png" sizes="1440x1440" href="./images/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo App | Milexpro</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<section class="todo">
+  <div class="todo-wrap">
+    <div class="todo-head">
+      <div class="todo-header">
+        <a href="">
+          <h1>T&nbsp;O&nbsp;D&nbsp;O</h1>
+        </a>
+        <button class="todo-theme-changer"></button>
+      </div>
+      <div class="todo-input">
+        <span class="todo-check"></span>
+        <input type="text" maxlength="30" placeholder="Create a new Todo..."/>
+      </div>
+    </div>
+    <div class="todo-body">
+      <div class="todo-popup-wrap"></div>
+      <div class="todo-lists">
+        <div class="todo-list-wrap">
+      </div>
+      <span class="divider"></span>
+      <div class="todo-list-meta">
+      <p><span class="todo-count"></span> <span class="todo-count-item">items</span> left</p>
+      <a class="hide-for-mobile todo-action-all">All</a>
+      <a class="hide-for-mobile todo-action-active">Active</a>
+      <a class="hide-for-mobile todo-action-complete">Completed</a>
+      <a class="todo-action-four todo-action-clear">Clear Completed</a>
+      </div>
+      </div>
+      <div class="todo-list-meta-mobile hide-for-desktop">
+        <div class="todo-list-meta-mobile-wrap">
+        <a class="hide-for-desktop todo-action-all">All</a>
+        <a class="hide-for-desktop todo-action-active">Active</a>
+        <a class="hide-for-desktop todo-action-complete">Completed</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<div class="attribution">
+Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+Developed by <a href="https://facebook.com/milexpro213" target="_blank">Milexpro</a>.
+</div>
+<div class="prompt-wrap"></div>
+</body>
+<footer>
+  <script src="script.js"></script>
+</footer>
+</html>

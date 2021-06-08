@@ -1,0 +1,15 @@
+{
+    "name": "To-do App",
+    "short_name": "To-do",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "hsl(233, 11%, 84%)",
+    "description": "Milexpro's very own To-do App allows you save all your day to day activities so that you can always win!",
+    "icons": [
+        {
+            "src": "images/logo.png",
+            "sizes": "1440x1440",
+            "type": "image/png"
+        }
+    ]
+}
