@@ -1,0 +1,18 @@
+{
+    "name": "To-do App by Milexpro",
+    "short_name": "To-do App",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#000",
+    "theme_color": "hsl(235, 19%, 35%)",
+    "description": "Milexpro's very own To-do App allows you save all your day to day activities",
+    "icons": [
+        {
+            "src": "images/logo.png",
+            "sizes": "1440x1440",
+            "type": "image/png"
+        }
+    ],
+    "gcm_sender_id": "330561634409",
+    "gcm_user_visible_only": true
+}
