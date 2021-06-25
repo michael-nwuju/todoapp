@@ -106,6 +106,7 @@ async function addTodo() {
         localStorage.setItem('timerStore', JSON.stringify(timerStore));
         id++;
         input.value = ""
+        Notification.requestPermission();
     }
 }
 
