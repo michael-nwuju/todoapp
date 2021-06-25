@@ -734,7 +734,8 @@ async function displayNotification(job) {
     const options = {
         body: `It's time to ${job}`,
         icon: 'images/logo.png',
-        timeout: 5000,
+        timeout: 60000,
+        vibrate: [100, 50, 100],
         onClick: function() {
             window.focus();
             this.close();
